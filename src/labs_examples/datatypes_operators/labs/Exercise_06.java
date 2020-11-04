@@ -13,6 +13,14 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
+        float height = 5;
+        float radius = 3.14f;
+        float pi = 3.14f;
 
+        float calcVolume = (float) (pi * Math.sqrt(radius) * height);
+        float calcSurfaceArea = (float) ((2 * pi * radius * height) + (2 * pi * Math.sqrt(radius)));
+
+        System.out.println(calcVolume);
+        System.out.println(calcSurfaceArea);
     }
 }

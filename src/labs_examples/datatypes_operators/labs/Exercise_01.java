@@ -17,7 +17,13 @@ public class Exercise_01 {
     public static void main(String[] args) {
 
         // write code here
+        int intVal = 12;
+        double doubVal = 1234223423423423423.12;
+        float floatVal = 12.111232132131231231231f;
 
+        System.out.println("intVal " + intVal);
+        System.out.println("doubVal " + doubVal);
+        System.out.println("floatVal " + floatVal);
     }
 }
 
