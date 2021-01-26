@@ -9,5 +9,16 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
+        int[] array = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
+        int num = array.length - 1;
+        while (num >= 0) {
+            if (num%2 == 0) {
+                System.out.println(array[num]);
+            }
+            num--;
+        }
+
+    }
 }

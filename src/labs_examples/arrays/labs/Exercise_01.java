@@ -1,5 +1,8 @@
 package labs_examples.arrays.labs;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 /**
  * Arrays calculator
  *
@@ -11,5 +14,21 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_01 {
+    public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+        int[] userNumbers = new int[10];
+        float sum = 0;
+
+        for (int i = 0; i < userNumbers.length; i++) {
+            System.out.println("Enter next integer: ");
+            userNumbers[i] = scanner.nextInt();
+            sum += userNumbers[i];
+        }
+
+        float avg = sum/userNumbers.length;
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Avg: " + avg);
+    }
 }

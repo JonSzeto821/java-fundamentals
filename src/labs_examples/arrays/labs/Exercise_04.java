@@ -9,5 +9,17 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+            int [][] irr_array = new int[][]{
+                    {12, 10},
+                    {78, 46, 12, 77},
+                    {11, 89, 34}
+            };
 
+            for (int[] arr:irr_array) {
+               for (int val : arr) {
+                   System.out.print(val + " | ");
+               }
+            }
+    }
 }

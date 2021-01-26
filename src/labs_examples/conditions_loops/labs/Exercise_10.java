@@ -1,7 +1,5 @@
 package labs_examples.conditions_loops.labs;
 
-import java.sql.SQLOutput;
-
 /**
  * Conditions and Loops Exercise 10: continue
  *

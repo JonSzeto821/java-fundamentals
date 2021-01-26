@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,22 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args){
+        ArrayList<String> list = new ArrayList();
+
+        list.add("one");
+        list.add("two");
+        list.add("three");
+        list.add("four");
+
+        if (list.isEmpty()) {
+            System.out.println("The list is empty! Fill it up!");
+        } else {
+            System.out.println("The list contains items!");
+        }
+
+        if (list.contains("three")) {
+            System.out.println("Three exists in the array!");
+        }
+    }
 }

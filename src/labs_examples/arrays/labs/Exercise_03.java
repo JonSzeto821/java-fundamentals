@@ -18,6 +18,25 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        
+        int[][] multiple_three = new int[5][5];
+
+        //populate array
+        int count = 3;
+
+        for (int i = 0; i < multiple_three.length; i++) {
+            for (int x = 0; x < multiple_three[i].length; x++) {
+                multiple_three[i][x] = count;
+                count += 3;
+//                System.out.println(count);
+            }
+        }
+
+
+        for (int i = 0; i < multiple_three.length; i++) {
+            for (int x = 0; x < multiple_three[i].length; x++) {
+                System.out.print(multiple_three[i][x] + " | ");
+            }
+            System.out.println();
+        }
     }
 }
